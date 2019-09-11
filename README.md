@@ -1,1 +1,1 @@
-# RealDrip-Frontend
+# RealDrip-Frontend [![Build Status](https://travis-ci.org/TREP-LABS/realdrip-fronend.svg?branch=master)](https://travis-ci.org/TREP-LABS/realdrip-fronend) [![Coverage Status](https://coveralls.io/repos/github/TREP-LABS/realdrip-fronend/badge.svg?branch=master)](https://coveralls.io/github/TREP-LABS/realdrip-fronend?branch=ch-deployment-pipeline-168190738)
