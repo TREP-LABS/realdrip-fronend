@@ -13,10 +13,11 @@ jobs:
     stage: Testing/Static Analysis
     script: npm run lint
   - name: Deploy to staging
+    if: branch = master
     stage: Deployment
     script: npm run build
     deploy:
-      on: ch-deployment-pipeline-168190738
+      on: master
       provider: heroku
       api_key:
         secure: QEN75NWQaF+u72j/cc0EzfNysdPRDt/ZCcZqybLRzU3KY0VrT5ZUJxtm4tllVtee45jRLErCqgX5SOyHSxUvh2R6Je34UiMVOAXAya0Ire4MaIBOXa4LYWX0x2WJw6deb3v9n9UfPMRV0AdhceWo80yvtbV8Iwhq1NS6RXQMvDmgP6ueP+cHeUQwtcZXVrkuM59mVeM3qCpORFoJeR/nIIaXofaDw6TM7zzm8tp+ZRpu7NFpAQSazsPNs4mtEhNgtC1H0+uhNmjPJT8IkbSgqtzet/pV/LQKdRbxmcgfxLx2QaWmOY3x8k8Df3lAA7qXKGTbK2nQErRmyCy/uoP/SAS9aaWiHlGuqDPDdEq+pOsoHNinFtJakDK2B2+D2aRD3A8I1JYzzgCiA1gUlMlpijz7ymbKfWqaZyFUr/r37SCul9mDuCeDykRZY3VRlNuIw5HfxZIkQoEplG5eYdFR8nlRX7o4A/gCI+mSdHTbTkYQxX5AxX/u/hcNVZu7F2DYVziPVNG5kSNPtxldfFDun2iXh95G0WZKIvSI7838qYboVSWAT80FuaLCC2I6za8UoSrcxgaBdh0vgVJDIBLoPHu3vwBTmux0Ojn5taBYtRm0Kf/SN6bolWWZposDbhy1mu7DdOhjn1beZ9ACbA/XT3iAf0F5nLaxAmeGJEyTymc=
