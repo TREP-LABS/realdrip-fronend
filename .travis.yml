@@ -14,13 +14,12 @@ jobs:
     script: npm run lint
   - name: Deploy to staging
     stage: Deployment
-    #if: branch = master
-    script: npm run build 
+    script: npm run build
     deploy:
       on: ch-deployment-pipeline-168190738
       provider: heroku
       api_key:
-        secure: "nTjfTRKV79h9t984gptqmCS15wWdjuqsYrhw1m7e65eWu2f/5kGZeEg+FlzrWuUdVy5da4HQeOM/3myZImERIKpp785pQB5W04/wSSllq7WPIGGjMhRfhx9G1VNueA/jiqr/qSWYt8/+gq2KnDYUq8dB1753WJsbaa7+Z6F/G5dEmi6zqhPcuX0H77v7fjPdJ+9880ej5O/Sf/sNXz0fQVg+CceVyqVz3em7PWfAb5zvprIuMfWCJW9QuZ5auZEapMHsKpwjuM78xlJs2YS6r+HM/4zQUJlR5XGCUCnaqV+Otsfo0QttckF5CWxsM5Bbi5yxAGJWIbgf7ptVqv3uFmVnA+Ul5ThU5MqZ4NQHkd2/ZH6SZeottg1nbFJgeRktMSOh9Ual1WyStoDnsxBVk6IJAi3NMwGZ/j1ZEPmj+gsG+VoztBjhA9guvOawG7hJhAH/QJibYrjYcumjtoWK7CNI4mwSZ3DBygd255Ot4R2AOtWKfm5BiA73U0mOyKMDCxsx6zzVU+ESkg4gE38fPlC9AViRwXaJQ1mvOky3HmSYU0NfdEorVMq36m2dKIcrXY39qRaBLWKTgljN6fKMlft1nyrG8QbCDzEay/xtvcljtLwJdd2WHb3KdH+8Tnguwbtp2LlxYt5nnCrSC3u8OXiML/zm7czsTIlTzTr/LLU="
+        secure: QEN75NWQaF+u72j/cc0EzfNysdPRDt/ZCcZqybLRzU3KY0VrT5ZUJxtm4tllVtee45jRLErCqgX5SOyHSxUvh2R6Je34UiMVOAXAya0Ire4MaIBOXa4LYWX0x2WJw6deb3v9n9UfPMRV0AdhceWo80yvtbV8Iwhq1NS6RXQMvDmgP6ueP+cHeUQwtcZXVrkuM59mVeM3qCpORFoJeR/nIIaXofaDw6TM7zzm8tp+ZRpu7NFpAQSazsPNs4mtEhNgtC1H0+uhNmjPJT8IkbSgqtzet/pV/LQKdRbxmcgfxLx2QaWmOY3x8k8Df3lAA7qXKGTbK2nQErRmyCy/uoP/SAS9aaWiHlGuqDPDdEq+pOsoHNinFtJakDK2B2+D2aRD3A8I1JYzzgCiA1gUlMlpijz7ymbKfWqaZyFUr/r37SCul9mDuCeDykRZY3VRlNuIw5HfxZIkQoEplG5eYdFR8nlRX7o4A/gCI+mSdHTbTkYQxX5AxX/u/hcNVZu7F2DYVziPVNG5kSNPtxldfFDun2iXh95G0WZKIvSI7838qYboVSWAT80FuaLCC2I6za8UoSrcxgaBdh0vgVJDIBLoPHu3vwBTmux0Ojn5taBYtRm0Kf/SN6bolWWZposDbhy1mu7DdOhjn1beZ9ACbA/XT3iAf0F5nLaxAmeGJEyTymc=
       app: rd-frontend-staging
 stages:
 - Testing/Static Analysis
