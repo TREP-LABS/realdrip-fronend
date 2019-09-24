@@ -11,11 +11,11 @@ const View = props => (
         <main className="app-layout-content">
 
           {/* Page Content  */}
-          <div className="container-fluid p-y-md">
+          <div className="container-fluid">
             <div className="row">
-              <div className="col-sm-12">
-                <div className="col-sm-6 ">
-                  <img alt="" className="img img-responsive" src="/assets/img/photos/unsplash.jpg" />
+              <div className="col-sm-12 no-padding-x">
+                <div className="col-sm-6 no-padding-x hidden-xs">
+                  <img alt="" className="img img-responsive focus-image" src="/assets/img/photos/unsplash.jpg" />
                 </div>
                 <div className="col-sm-6">
 
