@@ -1,0 +1,10 @@
+{
+  "extends": "react-app",
+  "globals": {
+    "shallow": true,
+    "render": true,
+    "mount": true,
+    "moxios": true,
+    "mockStore": true
+ }
+}

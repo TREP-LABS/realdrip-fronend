@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Signup /> Rendering: should redirect to "confirm you email page" if addingUserResolved is true 1`] = `
+<Redirect
+  to="/email-confirmation"
+/>
+`;
+
+exports[`<Signup /> Rendering: should render correctly 1`] = `
+<View
+  addingUserStarted={false}
+  getInput={[Function]}
+  inputErrors={Object {}}
+  location={
+    Object {
+      "country": null,
+      "state": null,
+    }
+  }
+  register={[Function]}
+  submissionError={null}
+/>
+`;
+
+exports[`<SignupView /> Rendering should render correctly 1`] = `
+<div
+  className="app-ui"
+>
+  <div
+    className="app-layout-canvas"
+  >
+    <div
+      className="app-layout-container"
+    >
+      <main
+        className="app-layout-content"
+      >
+        <div
+          className="container-fluid p-y-md"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-sm-12"
+            >
+              <div
+                className="col-sm-6 "
+              >
+                <img
+                  alt=""
+                  className="img img-responsive"
+                  src="/assets/img/photos/unsplash.jpg"
+                />
+              </div>
+              <div
+                className="col-sm-6"
+              >
+                <div
+                  className="card-block login-top "
+                >
+                  <form
+                    className="form-horizontal m-t-xs"
+                  >
+                    <p
+                      className="login-head"
+                    >
+                      Welcome to RealDrip
+                    </p>
+                    <h4
+                      className=" form-title"
+                    >
+                      Management Registration
+                    </h4>
+                    <p
+                      className="form-text"
+                    >
+                       Already have a management account? 
+                      <span
+                        className="login-head"
+                      >
+                        Sign in
+                      </span>
+                    </p>
+                    <div
+                      className="col-sm-10 text-center"
+                    >
+                      <ErrorText
+                        text={null}
+                      />
+                      <Spinner
+                        display={false}
+                        height={50}
+                        width={50}
+                      />
+                      <p />
+                    </div>
+                    <div
+                      className="form-group"
+                    >
+                      <label
+                        className="col-sm-5 form-label"
+                        htmlFor="name"
+                      >
+                        Medical Center Name
+                      </label>
+                      <label
+                        className="col-sm-5 form-label"
+                        htmlFor="email"
+                      >
+                        Medical Center Email
+                      </label>
+                      <div
+                        className="col-sm-5"
+                      >
+                        <input
+                          className="form-control"
+                          id="name"
+                          name="name"
+                          onChange={[MockFunction]}
+                          placeholder="Name"
+                          type="text"
+                        />
+                        <ErrorText />
+                      </div>
+                      <div
+                        className="col-sm-5"
+                      >
+                        <input
+                          className="form-control"
+                          id="email"
+                          name="email"
+                          onChange={[MockFunction]}
+                          placeholder="Email"
+                          type="email"
+                        />
+                        <ErrorText />
+                      </div>
+                    </div>
+                    <div
+                      className="form-group"
+                    >
+                      <label
+                        className="col-sm-10 form-label"
+                        htmlFor="location"
+                      >
+                        Location
+                      </label>
+                      <div
+                        className="col-sm-5"
+                      >
+                        <CountryDropdown
+                          blacklist={Array []}
+                          className="form-control"
+                          classes=""
+                          defaultOptionLabel="Select Country"
+                          disabled={false}
+                          id="country"
+                          labelType="full"
+                          name="country"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          priorityOptions={Array []}
+                          showDefaultOption={true}
+                          value=""
+                          valueType="full"
+                          whitelist={Array []}
+                        />
+                        <ErrorText />
+                      </div>
+                      <div
+                        className="col-sm-5"
+                      >
+                        <RegionDropdown
+                          blankOptionLabel="Select Region"
+                          className="form-control"
+                          classes=""
+                          country={null}
+                          countryValueType="full"
+                          customOptions={Array []}
+                          defaultOptionLabel="Select Region"
+                          disableWhenEmpty={false}
+                          disabled={false}
+                          id="state"
+                          labelType="full"
+                          name="state"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          showDefaultOption={true}
+                          value=""
+                          valueType="full"
+                        />
+                        <ErrorText />
+                      </div>
+                    </div>
+                    <div
+                      className="form-group"
+                    >
+                      <div
+                        className="col-sm-10"
+                      >
+                        <input
+                          className="form-control"
+                          id="Address"
+                          name="address"
+                          onChange={[MockFunction]}
+                          placeholder="Address"
+                          type="text"
+                        />
+                        <ErrorText />
+                      </div>
+                    </div>
+                    <div
+                      className="form-group"
+                    >
+                      <label
+                        className="col-sm-10 form-label"
+                        htmlFor="location"
+                      >
+                        Password
+                      </label>
+                      <div
+                        className="col-sm-5"
+                      >
+                        <input
+                          className="form-control"
+                          id="password"
+                          name="password"
+                          onChange={[MockFunction]}
+                          placeholder="password"
+                          type="password"
+                        />
+                        <ErrorText />
+                      </div>
+                      <div
+                        className="col-sm-5"
+                      >
+                        <input
+                          className="form-control"
+                          id="confirmPassword"
+                          name="confirmPassword"
+                          onChange={[MockFunction]}
+                          placeholder="confirm password"
+                          type="password"
+                        />
+                        <ErrorText />
+                      </div>
+                    </div>
+                    <div
+                      className="radio"
+                    >
+                      <label
+                        htmlFor="agreement"
+                      >
+                        <input
+                          id="agreement"
+                          name="agreement"
+                          onChange={[MockFunction]}
+                          type="radio"
+                          value={true}
+                        />
+                        <span>
+                          I agree to the Terms, Privacy Policy and Fees.
+                        </span>
+                        <br />
+                        <ErrorText />
+                      </label>
+                    </div>
+                    <div
+                      className="form-group m-b-0"
+                    >
+                      <div
+                        className="col-xs-8"
+                      >
+                        <button
+                          className="btn form-btn"
+                          disabled={false}
+                          onClick={[MockFunction]}
+                          type="submit"
+                        >
+                          Create account
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;

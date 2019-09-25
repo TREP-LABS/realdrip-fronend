@@ -1,0 +1,10 @@
+.focus-image {
+  height: 100vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.no-padding-x {
+  padding-left: 0px;
+  padding-right: 0px;
+}

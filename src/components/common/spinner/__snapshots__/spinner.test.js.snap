@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spinner /> Rendering should render correctly when display prop is true 1`] = `
+<Loader
+  className=""
+  color="#0cd891"
+  height={100}
+  style={Object {}}
+  timeout={0}
+  type="TailSpin"
+  visible={true}
+  width={100}
+/>
+`;
+
+exports[`<Spinner /> Rendering should render nothing when display prop is not true 1`] = `""`;
