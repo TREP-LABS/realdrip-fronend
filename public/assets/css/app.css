@@ -3018,3 +3018,21 @@ div.tagsinput span.tag a:hover {
 }
 
 /*# sourceMappingURL=maps/app.css.map */
+.tayo {
+    height: 100vh;
+    overflow: hidden;
+}
+img.abeeb {
+    height: 100vh;
+    overflow: hidden;
+    object-fit: cover;
+}
+.no-padding {
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width: 720px) {
+ img.abeeb {
+     display: none;
+ }
+}
