@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { CountryDropdown, RegionDropdown } from 'react-country-region-selector';
 import ErrorText from '../../common/errorText';
-import LoadingIcon from '../../common/spinner';
+import Spinner from '../../common/spinner';
 
 const View = props => (
   <div className="app-ui">
@@ -26,7 +26,7 @@ const View = props => (
                       <p className="form-text"> Already have a management account? <span className="login-head">Sign in</span></p>
                       <div className="col-sm-10 text-center">
                         <ErrorText text={props.submissionError} />
-                        <LoadingIcon display={props.addingUserStarted} height={50} width={50} />
+                        <Spinner display={props.addingUserStarted} height={50} width={50} />
                         <p/>
                       </div>
                       <div className="form-group">
