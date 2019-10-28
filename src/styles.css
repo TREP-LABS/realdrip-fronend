@@ -1,4 +1,19 @@
 /* Gobal styles */
 body {
-  font-family: 'Sawarabi Gothic', sans-serif;
+  font-family: "Sawarabi Gothic", sans-serif;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-container {
+  width: 1400px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
