@@ -1,0 +1,33 @@
+.active-card {
+  background: #fff;
+  padding: 10px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.active-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7px;
+
+  h4 {
+    font-weight: bolder;
+    font-size: 70px;
+  }
+}
+.active-card-icon {
+  width: 15px;
+}
+
+.active-card-label {
+  color: #777289;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
+}
