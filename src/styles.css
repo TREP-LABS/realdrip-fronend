@@ -10,10 +10,13 @@ body {
   justify-content: space-between;
 }
 
-.app-container {
-  width: 1400px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+.space-between-centered {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h4 {
+  font-weight: bolder;
+  font-size: 50px;
 }

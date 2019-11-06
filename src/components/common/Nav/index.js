@@ -6,7 +6,7 @@ class Nav extends PureComponent {
   render(){
     return (
         <nav className="top-nav">
-        <div className="app-container">
+        <div className="container">
           <div className="nav-items">
             <div><Label value="Ward"/></div>
             <div><span>How it works</span></div>

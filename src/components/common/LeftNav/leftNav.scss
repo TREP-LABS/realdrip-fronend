@@ -36,13 +36,6 @@
   }
 }
 
-.left-nav svg {
-  color: red;
-}
-
-.left-nav svg:hover {
-  font-size: 25px;
-}
 .nav-header {
   height: 50px;
   padding: 5px;
@@ -51,7 +44,8 @@
   justify-content: center;
 }
 
-.nav-items {
+.nav-item {
+  fill: red;
 }
 
 .nav-footer {
