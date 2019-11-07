@@ -36,20 +36,20 @@ exports[`<SignupView /> Rendering should render correctly 1`] = `
         className="app-layout-content"
       >
         <div
-          className="container-fluid p-y-md"
+          className="container-fluid"
         >
           <div
             className="row"
           >
             <div
-              className="col-sm-12"
+              className="col-sm-12 no-padding-x"
             >
               <div
-                className="col-sm-6 "
+                className="col-sm-6 no-padding-x hidden-xs"
               >
                 <img
                   alt=""
-                  className="img img-responsive"
+                  className="img img-responsive focus-image"
                   src="/assets/img/photos/unsplash.jpg"
                 />
               </div>

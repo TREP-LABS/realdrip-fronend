@@ -4,6 +4,16 @@ exports[`<Routes /> Rendering should render correctly 1`] = `
 <BrowserRouter>
   <Switch>
     <Route
+      component={[Function]}
+      exact={true}
+      path="/ward"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/ward/dashboard"
+    />
+    <Route
       component={
         Object {
           "$$typeof": Symbol(react.memo),
